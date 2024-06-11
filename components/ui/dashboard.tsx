@@ -12,7 +12,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { FC, useState } from "react"
 import { useSelectFileHandler } from "../chat/chat-hooks/use-select-file-handler"
 import { CommandK } from "../utility/command-k"
-import { Analytics } from '@vercel/analytics'
+import { Analytics } from "@vercel/analytics/react"
 
 export const SIDEBAR_WIDTH = 350
 
